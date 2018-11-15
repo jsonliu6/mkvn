@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
-  outputDir: "../dist"
+  outputDir: path.resolve(__dirname, "../server/public"),
 };
